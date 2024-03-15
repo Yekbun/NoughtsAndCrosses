@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using NoughtsAndCrosses;
+
+var playGame = new PlayGame(Console.In, Console.Out);
+playGame.Run();
+

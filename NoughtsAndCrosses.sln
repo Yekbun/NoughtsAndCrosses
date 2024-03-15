@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoughtsAndCrosses", "NoughtsAndCrosses\NoughtsAndCrosses.csproj", "{02C76F69-7AD9-4B2A-B281-81B11C7F7E2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoughtsAndCrosses", "NoughtsAndCrosses\NoughtsAndCrosses.csproj", "{02C76F69-7AD9-4B2A-B281-81B11C7F7E2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoughtsAndCrosses.Core", "NoughtsAndCrosses.Core\NoughtsAndCrosses.Core.csproj", "{F2627DE2-5674-4A90-9CB9-99013805675E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoughtsAndCrosses.Tests", "NoughtsAndCrosses.Tests\NoughtsAndCrosses.Tests.csproj", "{1C0C1D92-C822-4D84-8E25-1D8A82FD57BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{02C76F69-7AD9-4B2A-B281-81B11C7F7E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02C76F69-7AD9-4B2A-B281-81B11C7F7E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02C76F69-7AD9-4B2A-B281-81B11C7F7E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2627DE2-5674-4A90-9CB9-99013805675E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2627DE2-5674-4A90-9CB9-99013805675E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2627DE2-5674-4A90-9CB9-99013805675E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2627DE2-5674-4A90-9CB9-99013805675E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0C1D92-C822-4D84-8E25-1D8A82FD57BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0C1D92-C822-4D84-8E25-1D8A82FD57BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0C1D92-C822-4D84-8E25-1D8A82FD57BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0C1D92-C822-4D84-8E25-1D8A82FD57BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
